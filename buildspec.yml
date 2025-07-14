@@ -1,3 +1,5 @@
+# its for configuration for AWS CodeBuild
+
 version: 0.2
 
 phases:
@@ -20,4 +22,6 @@ phases:
 artifacts:
   files:
     - target/nextwork-web-project.war
+    - appspec.yml
+    - scripts/**/*
   discard-paths: no
